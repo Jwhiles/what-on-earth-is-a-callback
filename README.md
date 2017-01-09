@@ -10,7 +10,7 @@ var callback = function () {
 }
 
 var caller = function (cb) {
-  cb()
+  return cb()
 }
 
 caller(callback); // 'Hello'
